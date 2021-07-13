@@ -1,0 +1,192 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* COMON STYLE */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+   
+}
+
+/*=== MENU SECTION start================ */
+.main_hdr{
+    background-color: tomato;
+    border-radius: 10px;
+    height: 50px;
+}
+.nv_class .menu_ul_normal{
+    display: flex;
+    margin-left: 330px;
+    margin-top: -55px;
+}
+.logo_head{
+  
+    display: flex;
+}
+
+
+ .logo{
+    height: 100%;
+    height: 30px; 
+     width: 30px;
+    background-color: #ffff0070;
+    padding: 7px;
+    border-radius: 22px;
+    margin: 2px;
+    margin-left: 242px;
+}
+.man{
+    margin-left: 793px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+.menu_ul_normal li{
+    list-style: none;
+    margin-top: 12px;
+}
+.menu_ul_normal> li> a{
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: rgba(208, 247, 67, 0.363);
+    border-radius: 5px;
+    padding: 3px;
+
+}
+.menu_ul_normal> li> a:hover{
+    background-color: rgba(207, 195, 193, 0.555);
+    color: #fad9d9;
+    transition: .5s;
+    border: 1px solid rgba(255, 255, 0, 0.383);
+}
+/* Droup_down_ menu ===============*/
+.menu_ul_drop_down{
+    position: absolute;
+    /* display: none; */
+    opacity: 0;
+    background-color: rgba(153, 205, 50, 0.726);
+    padding-bottom: 15px;
+    transition: 1s;
+}
+
+.menu_ul_drop_down li a{
+    background-color: rgba(92, 71, 71, 0.349);
+    color: whitesmoke;
+    padding: 5px;
+    padding-left:1px ;
+    border-radius: 5px;
+    color: yellow;
+}
+
+.nv_class > .menu_ul_normal > .li_drop_down:hover .menu_ul_drop_down {
+    /* display: block; */
+    opacity: 1;
+    background-color: violet;
+    transition: 0.8s;
+}
+
+
+/*=== MENU SECTION end================ */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    /* height: 670px; */
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.sec_tytle{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+
+/* TOP PLAYER STYLE */
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    
+}
+.six-player{
+    display: flex;
+    align-items: center;
+}
+.six-player img{
+    width: 56px;
+    height: 56px;
+}
+.player_name{
+    margin: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* ========================================= 
+top-blog-style
+========================================== */
+
+.blogs{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.artcl_blog{
+    display: flex;
+    align-items: center;
+}
+.artcl_blog .thamble img{
+    width: 177px;
+    height: 117px;
+    
+}
+.blog-info{
+    margin-left: 10px;
+}
+.blog-author a{
+    text-decoration: none;
+}
+/* courses style ============================= */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    
+   }
+   .container_course{
+margin-bottom: 50px;
+   }
+.course .banner img{
+    width: 224px;
+    height: 104px;
+}
+.cource_info_2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -32px;
+}
+.course_rank{
+    color:#FFC014 ;
+}
+.fa-star{
+    font-size: 12px;
+}
+.empty_star{
+    color:#a09999;
+}
+p{
+    margin-left: 1px;
+}
+.watch{
+    margin:0 5px ;
+}
+
